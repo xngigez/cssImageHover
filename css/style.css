@@ -1,0 +1,41 @@
+/*Css styling for cssImageHover by NGIGE http://codrspace.com/xngigez/ */
+
+/**/
+.thumbnail{
+	position: absolute;
+	width: 300px;	
+}
+
+/*Style Image*/
+.thumbnail img{
+	position: absolute;
+	width: 100%;	
+}
+
+/*Style Hover Details*/
+.thumbnail .hoverDetails{
+	opacity: 0;				/*Makes invisible!*/
+	position: absolute;
+	width: 100%;
+}
+
+/*
+	Now for the cool stuffs
+*/
+
+.thumbnail:hover .hoverDetails{ /*Make Details Visible on hover thumbnail!*/
+	opacity: 1;				
+}
+
+.thumbnail:hover img{ /*Make Image less opaque on hover thumbnail!*/
+	opacity: 0.5;				
+}
+
+/*
+	Polish Up the apperance - Meeeooooooooww!!
+*/
+.thumbnail .hoverDetails{
+	color: #FF7F50;
+	font-family: andalus;
+	text-align: center;
+}
