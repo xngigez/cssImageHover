@@ -35,7 +35,27 @@
 	Polish Up the apperance - Meeeooooooooww!!
 */
 .thumbnail .hoverDetails{
-	color: #FF7F50;
+	color: #B22222;
 	font-family: andalus;
 	text-align: center;
+}
+
+.thumbnail hr{
+	width: 50%;
+}
+
+.thumbnail button{
+	color: rgba(0, 0, 0, 0.5);
+	background-color: none;
+	border: none;
+	border-radius: 2px;
+	outline: none;
+
+}
+/*More Hover effects*/
+.thumbnail button:hover{
+	background-color: #fff;
+	border: 1px solid red;
+	outline: none;
+	color: red;
 }
